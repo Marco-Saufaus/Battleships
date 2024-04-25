@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battleships</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="popupContainer" class="popup-container">
+        
+        <div class="popup">
+            <h2>You win!</h2>
+            <p>Here are your stats:</p>
+            <div class="info" id="statInfo">
+                <label id="statScore">Shots fired: <span id="statShots"></span></label><br>
+                <label id="statAccuracyLabel">Accuracy: <span id="statAccuracy"></span></label><br>
+                <label id="statTimer">Time: <span id="statTimeElapsed"></span></label>
+            </div>
+            <button id="playButton">Play Again</button>
+            <button id="closeButton">Close</button>
+        </div>
+    </div>
+
+    <div class="container-wrapper">
+        <div class="timer">
+            <label id="timer">Time: <span id="timeElapsed">0s</span></label>
+        </div>
+        <div class="info">
+            <label id="score">Shots fired: <span id="shots">0</span></label>
+            <label id="counter">Hits: <span id="hits">0</span></label>
+            <label id="accuracyLabel">Accuracy: <span id="accuracy">0%</span></label>
+        </div>
+        
+        <div class="container"></div>
+    </div>
+    
+    <script src="lib/jqueryfull.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
