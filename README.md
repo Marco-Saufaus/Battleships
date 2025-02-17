@@ -1,1 +1,1 @@
-Demo : https://marco-saufaus.github.io/Battleships/
+Demo: https://marco-saufaus.github.io/Battleships/
